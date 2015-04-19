@@ -1,0 +1,7 @@
+# # av:php5-engine
+AddHandler av-php54 .php
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+ 

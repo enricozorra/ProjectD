@@ -1,0 +1,50 @@
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {background-color: #009688;}
+
+.navbar-default .navbar-nav>li>a {
+	padding-bottom: 5px;
+	font-size: 17px;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-align: center;
+	color: #009866;
+
+	text-decoration: none;
+    display: inline-block;
+    border-bottom: 1px solid transparent;    
+    width: 130px;
+    transition: 0.3s ease;
+    white-space: nowrap;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #009866;
+	border-bottom: 1px solid #009866;
+	color: #009866;
+}
+
+.navbar, .navbar-default {
+	margin-bottom: 0;
+	background-color: #FFFFFF;
+	border-color: #FFFFFF;
+}
+
+.btn-primary {
+	color: #009866;
+	border-color: #009866;
+	background-color: white;
+}
+
+.btn-primary:hover {
+	background-color: #009866;
+	color: white;
+	border-color: #009866;
+}
+
+#map-canvas {
+	height: 250px;
+	padding: 0;
+}
+
+#pac-input {
+	margin-left: 3%;
+}

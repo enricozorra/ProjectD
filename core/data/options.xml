@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<option>
+	<DNS>
+		<dbname>you really thought it was so easy?</dbname>
+		<dbpass>go working, idiot</dbpass>
+	</DNS>
+	<errorCodes>
+		<code_1>username</code_1>
+		<code_2>user_email</code_2>
+		<code_3>vat_number</code_3>
+	</errorCodes>
+</option>

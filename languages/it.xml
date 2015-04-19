@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<views>
+	<view id="login">
+		<page-title>Entra</page-title>
+		<username-placeholder>Username</username-placeholder>
+		<password-placeholder>Password</password-placeholder>
+		<login-label>Entra</login-label>
+	</view>
+	<view id="join">
+		<page-title>Registrati</page-title>
+		<join-label>REGISTRATI</join-label>
+		<first-name-placeholder>Nome (o compagnia)</first-name-placeholder>
+		<family-name-placeholder>Cognome</family-name-placeholder>
+		<vat-number-placeholder>Codice fiscale (o partita iva)</vat-number-placeholder>
+		<username-placeholder>Username</username-placeholder>
+		<password-placeholder>Password</password-placeholder>
+		<email-placeholder>Email</email-placeholder>
+		<address-placeholder>Indirizzo</address-placeholder>
+		<zip-placeholder>CAP</zip-placeholder>
+		<city-placeholder>Città</city-placeholder>
+		<country-placeholder>Nazione</country-placeholder>
+		<join-label>Registrati</join-label>
+	</view>
+	<view id="menu">
+		<more>Scopri</more>
+		<login>Entra</login>
+		<about>Team</about>
+		<join>Registrati</join>
+		<profile>Profilo</profile>
+		<offers>Offerte</offers>
+		<accepted>Accettati</accepted>
+		<stats>Statistiche</stats>
+		<mod_profile>Modifica profilo</mod_profile>
+		<change_password>Cambia password</change_password>
+		<exit>Esci</exit>
+	</view>
+	<view id="errorMessages">
+		<code_1>Username già utilizzato</code_1>
+		<code_2>Mail già utilizzata</code_2>
+		<code_3>Codice fiscale (o partita IVA) già presenti</code_3>
+	</view>
+	<view id="mails">
+		<activation-mail-subject>Attivazione account xtest</activation-mail-subject>
+		<activation-mail-content>Clicca sul seguente link per attivare il tuo account xtest: </activation-mail-content>
+		<activation-link>www.xtest.altervista.org/index.php?r=AccountActivation&amp;c=</activation-link>
+	</view>
+    <view id="activation-deny">
+        <error-message>Attivazione fallita, l'account non esiste</error-message>
+        <create-new-account-button>Crea un account</create-new-account-button>
+    </view>
+</views>
