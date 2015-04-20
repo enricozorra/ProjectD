@@ -22,6 +22,7 @@
 
 		function execute( Request $request ) {
 			if (ApplicationHelper::userLogged()) {
+                //ciao
                     $this->doUserLogged($request);
 			} else {
 				$this->doUserNotLogged($request);
